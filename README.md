@@ -19,11 +19,12 @@ With CMake it all depends on the toolchain that you use, but if your IDE works w
 The best way to use this code, however, is not to download the full repo, but just the one particular topic you are interested to — that's why I've decided against separate directories for `.md`, `.cpp` and `hpp` files. Read an `.md` file first, and if you feel like playing with the corresponding code, download the .cpp file, go to the last function in the source (it is named like `int test_something(void)`), and rename it to `int main(void)`. You can either download the corresponding .hpp file or simply comment it out of your .cpp. Then compile it with your favorite compiler, debug with your favorite debugger, edit with your favorite editor or IDE, copy-paste it on godbolt — with a single-file .cpp it is usually much easier. But don't forget set the C++ standard to C++17 (`-std=c++17`) -- some snippets may compile with C++11 or even earlier versions, but they all are tested against this standard. Alternatively, you can play with C++ dialects taking this as an exercise. 
 
 ##Contents
-###`cont_string` 
+
+`cont_string`   
 For the very beginners. Strings and containers inititialization from other containers and container-like entities such as initialization lists. 
-###`member_calls_ctor` 
+`member_calls_ctor`    
 C++ rules for member function calls from constructors. For beginners and Java programmers.
-###`templates`
+`templates`   
 Starts with the explanation of why `using namespace std;` is usually not recommended even on file level, continues with using the multiple `swap` functions to get a sense of lookup rules, touches init-lists, and ends with class template troubleshooting — for intermediate-level learners, who make their first steps into  templating. 
-###`lambdas`
+`lambdas`   
 Callables in general, but mostly lambdas: easy ways to store them in a container and return them, the danger of capturing by reference with storing and returning, two ways to make recursive lambdas, and why can't we use default arguments when we call functions via  function pointer. 
