@@ -28,3 +28,8 @@ C++ rules for member function calls from constructors. For beginners and Java pr
 Starts with the explanation of why `using namespace std;` is usually not recommended even on file level, continues with using the multiple `swap` functions to get a sense of lookup rules, touches init-lists, and ends with class template troubleshooting — for intermediate-level learners, who make their first steps into  templating.   
 ### `lambdas`     
 Callables in general, but mostly lambdas: easy ways to store them in a container and return them, the danger of capturing by reference with storing and returning, two ways to make recursive lambdas, and why can't we use default arguments when we call functions via  function pointer. 
+
+## License
+Copyright (C) 2023 Mike Tyukanov
+
+The text `(*.md)` files of this project are licensed under the [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/), and the code files are licensed under the [MIT License](LICENSE.txt). 
